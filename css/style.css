@@ -1,0 +1,197 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+i{
+	font-family: fontawesome !important;
+}
+header{
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+}
+.header{
+	background: #0971b2;
+	color: #fff;
+}
+.header a{
+	color: #fff;
+}
+.navbar-brand{
+	margin-right: 80px;
+}
+.white-shadow{
+	filter: drop-shadow(0px -2px 4px #fff);
+}
+/*Конец Шапки*/
+
+.banner{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+/*Начало иконок*/
+.circle{
+	max-width: 80px;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-shadow: 0px 9px 35px -6px rgba(0,0,0,0.3);
+	display: inline-block;
+	background-color: #fff;
+	position: relative;
+	text-align: center;
+}
+.circle .fa{
+	margin-top: 30%;
+}
+.col-4.green:hover .circle{
+	transform: translateY(-10px);
+	transition: transform .4s, box-shadow .4s;
+	box-shadow: 0px 9px 35px -6px green;
+}
+.col-4.red:hover .circle{
+	transform: translateY(-10px);
+	transition: transform .4s, box-shadow .4s;
+	box-shadow: 0px 9px 35px -6px red;
+}
+.col-4.blue:hover .circle{
+	transform: translateY(-10px);
+	transition: transform .4s, box-shadow .4s;
+	box-shadow: 0px 9px 35px -6px #0177B5;
+}
+.services .col-4 h4{
+	margin: 30px 0 10px; 
+}
+.services .green:hover h4{
+	color: green;
+} 
+.services .red:hover h4{
+	color: red;
+} 
+.services .blue:hover h4{
+	color: #0177B5;
+}
+.services .col-4{
+	text-align: center;
+}
+.modal-title{
+	margin: 0 auto;
+	color: red;
+}
+/*Servo section begin*/
+.servi-title{
+	text-align: center;
+	margin-bottom: 50px;
+	color: #0071b1;
+	font-weight: bold;
+}
+.block-btn{
+	height: 60px;
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.btn-round{
+	margin-top: 20px;
+	border-width: 1px;
+	border-radius: 30px !important;
+}
+.icon-small{
+	color: #c62828 !important;
+	background-color: #ffffff !important;
+}
+.block-btn .btn:hover{
+	background-color: red;
+	color: #fff;
+}
+.card-background{
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	transition: all 0.5s;
+}
+.card-background .card-body{
+	position: relative;
+	z-index: 2;
+	min-height: 370px ;
+	max-width: 540px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.card{
+	border:0;
+	border-radius: 0.25rem;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.2);
+}
+.card-background::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.card-background:hover{
+	transform: translateY(-15px);
+	transition: all 0.3s;
+}
+
+/* testimonials */
+.title-info{
+	color: #0773a2;
+	font-weight: 500;
+	font-size: 2.1em;
+}
+.description-info{
+	font-size: 1.4em;
+	margin-bottom: 50px;
+	color: #5f5f5f;
+	font-weight: 400;
+}
+.card-testimonial{
+	margin-top: 30px;
+	text-align: center;
+}
+.card-testimonial .card-avatar{
+	max-width: 110px;
+	max-height: 110px;
+	margin: -60px auto 0;
+}
+.card-testimonial img{
+	border-radius: 50% !important;
+
+}
+.testimonials img{
+	max-width: 100%;
+	border-radius: 1px;
+	height: auto;
+}
+.icon-red{
+	color: #c62828;
+}
+.card-description{
+	color: #9a9a9a;
+	font-weight: 400;
+}
+.img-raised{
+	box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.3);	
+}
+.page-footer{
+	background-color: #0971B2;
+}
+.col-md-3{
+	margin-top: 0px
+	
+	
+}
+.light {
+	display: block;
+	box-sizing: border-box;
+}
+
+
