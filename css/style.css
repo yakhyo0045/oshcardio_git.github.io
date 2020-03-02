@@ -93,14 +93,15 @@ header{
 	margin-top: 20px;
 	border-width: 1px;
 	border-radius: 30px !important;
+	padding: 5px 20px;
 }
 .icon-small{
 	color: #c62828 !important;
-	background-color: #ffffff !important;
+	background-color: #fff !important;
 }
 .block-btn .btn:hover{
 	background-color: red;
-	color: #fff;
+	border: 1px solid red;
 }
 .card-background{
 	background-position: center center;
@@ -111,25 +112,25 @@ header{
 .card-background .card-body{
 	position: relative;
 	z-index: 2;
-	min-height: 370px ;
-	max-width: 540px;
+	min-height: 370px;
+	max-width: 530px;
 	margin: 0 auto;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 .card{
-	border:0;
+	border: 0;
 	border-radius: 0.25rem;
 	display: inline-block;
 	position: relative;
 	width: 100%;
 	margin-bottom: 30px;
-	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.4);
 }
 .card-background::before{
 	content: '';
 	position: absolute;
-	top: 0;
+	top:0;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -140,12 +141,11 @@ header{
 	transform: translateY(-15px);
 	transition: all 0.3s;
 }
-
-/* testimonials */
+/*Testimonials*/
 .title-info{
 	color: #0773a2;
 	font-weight: 500;
-	font-size: 2.1em;
+	font-size: 2.1em
 }
 .description-info{
 	font-size: 1.4em;
@@ -162,9 +162,8 @@ header{
 	max-height: 110px;
 	margin: -60px auto 0;
 }
-.card-testimonial img{
+.card-testimonial .card-avatar img{
 	border-radius: 50% !important;
-
 }
 .testimonials img{
 	max-width: 100%;
@@ -179,19 +178,56 @@ header{
 	font-weight: 400;
 }
 .img-raised{
-	box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.3);	
+	box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.3);
 }
-.page-footer{
-	background-color: #0971B2;
+/*Contacts*/
+.card-pricing{
+	text-align: center;
 }
-.col-md-3{
-	margin-top: 0px
-	
-	
+.title{
+	color: #0071ba;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
-.light {
-	display: block;
-	box-sizing: border-box;
+.input-group{
+	margin-bottom: 12px;
+	position: relative;
+}
+.form-control{
+	border-radius:25px ;
+}
+.card-pricing ul{
+	list-style: none;
+	padding: 0;
+	max-width: 240px;
+	margin: 20px auto;
+
+}
+.card-pricing ul li{
+	color: #888888;
+	text-align: center;
+	font-size: 16px;
+	padding: 20px;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+}
+.card-pricing ul li i{
+	top: 3px;
+	right: 3px;
+	position: relative;
+	font-size: 24px;
+}
+footer{
+	height: 70px;
 }
 
+.footer-menu{
+	list-style: none;
+	margin-top: 20px;
 
+}
+.footer-menu li{
+	display: inline;
+	padding: 5px;
+	text-transform: uppercase;
+}
