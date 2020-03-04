@@ -297,5 +297,11 @@ footer{
 .licence:hover{
 	transform: scale(1.2);
 }
+/* Servuces */
+.content-services .tetle-info{
+	font-size: 24px;
+	font-weight: 600;
+}
+
 
 
