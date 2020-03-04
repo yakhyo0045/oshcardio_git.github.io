@@ -195,20 +195,19 @@ header{
 	position: relative;
 }
 .form-control{
-	border-radius:25px ;
+	border-radius: 25px;
 }
 .card-pricing ul{
 	list-style: none;
 	padding: 0;
 	max-width: 240px;
 	margin: 20px auto;
-
 }
 .card-pricing ul li{
 	color: #888888;
 	text-align: center;
 	font-size: 16px;
-	padding: 20px;
+	padding: 20px 0;
 	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
 .card-pricing ul li i{
@@ -217,17 +216,86 @@ header{
 	position: relative;
 	font-size: 24px;
 }
+/*Footer*/
 footer{
 	height: 70px;
 }
-
 .footer-menu{
 	list-style: none;
-	margin-top: 20px;
-
+	margin-top: 20px;	
 }
 .footer-menu li{
 	display: inline;
 	padding: 5px;
 	text-transform: uppercase;
 }
+/*About*/
+.page-header{
+	position: relative;
+	height: 500px;
+	max-width: 1920px;
+	margin: auto;
+	
+}
+.page-header .page-header-image{
+	position: absolute;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.page-header .content-center{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+	max-width: 880px;
+	padding: 0 15px;
+
+
+}
+.page-header .title{
+	font-size: 55px;
+	color: #fff;
+
+}
+.page-header-image::before{
+	background-color: rgba(0,0,0,0.4);
+}
+.page-header-image::after, .page-header-image::before{
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	left: 0;
+	top: 0;
+	content: "";
+}
+.about-bold{
+	font-weight: bold;
+}
+.about-text{
+	font-size: 20px;
+	font-weight: 400;
+	
+}
+.content-about{
+	margin-bottom: 50px;
+
+}
+.licence{
+	max-width: 350px;
+	transition: 0.5s;
+	z-index: 10;
+
+}
+.licence:hover{
+	transform: scale(1.2);
+}
+
+
